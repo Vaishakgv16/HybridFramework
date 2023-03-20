@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launched the browser]]>
+    </line>
+    <line>
+      <![CDATA[URL is passed]]>
+    </line>
+    <line>
+      <![CDATA[Logged in as QA Test]]>
+    </line>
+    <line>
+      <![CDATA[Added to the Cart]]>
+    </line>
+    <line>
+      <![CDATA[Logged out]]>
+    </line>
+    <line>
+      <![CDATA[Logged in as QA Test]]>
+    </line>
+    <line>
+      <![CDATA[Order is placed]]>
+    </line>
+    <line>
+      <![CDATA[Logged out]]>
+    </line>
+    <line>
+      <![CDATA[Closed the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-20T05:59:45 IST" name="Suite" finished-at="2023-03-20T06:01:17 IST" duration-ms="92355">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T05:59:45 IST" name="Test" finished-at="2023-03-20T06:01:17 IST" duration-ms="92355">
+      <class name="com.testscripts.demoblaze.PlaceTheOrder">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.testscripts.demoblaze.PlaceTheOrder@3b69e7d1]" started-at="2023-03-20T06:00:38 IST" name="configBM" finished-at="2023-03-20T06:00:43 IST" duration-ms="5233" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in as QA Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="placeTheOrderTest()[pri:0, instance:com.testscripts.demoblaze.PlaceTheOrder@3b69e7d1]" started-at="2023-03-20T06:00:43 IST" name="placeTheOrderTest" finished-at="2023-03-20T06:01:09 IST" duration-ms="26123" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Order is placed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeTheOrderTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.testscripts.demoblaze.PlaceTheOrder@3b69e7d1]" started-at="2023-03-20T06:01:09 IST" name="configAM" finished-at="2023-03-20T06:01:12 IST" duration-ms="3106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+      </class> <!-- com.testscripts.demoblaze.PlaceTheOrder -->
+      <class name="com.testscripts.demoblaze.AddToCart">
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.testscripts.demoblaze.AddToCart@6025e1b6]" started-at="2023-03-20T05:59:45 IST" name="configBT" finished-at="2023-03-20T06:00:14 IST" duration-ms="28626" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched the browser]]>
+            </line>
+            <line>
+              <![CDATA[URL is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.testscripts.demoblaze.AddToCart@6025e1b6]" started-at="2023-03-20T06:00:14 IST" name="configBM" finished-at="2023-03-20T06:00:18 IST" duration-ms="4264" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in as QA Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="addToCartTest()[pri:0, instance:com.testscripts.demoblaze.AddToCart@6025e1b6]" started-at="2023-03-20T06:00:18 IST" name="addToCartTest" finished-at="2023-03-20T06:00:35 IST" duration-ms="16516" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Added to the Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.testscripts.demoblaze.AddToCart@6025e1b6]" started-at="2023-03-20T06:00:35 IST" name="configAM" finished-at="2023-03-20T06:00:38 IST" duration-ms="2916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.testscripts.demoblaze.AddToCart@6025e1b6]" started-at="2023-03-20T06:01:12 IST" name="configAT" finished-at="2023-03-20T06:01:17 IST" duration-ms="5429" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+      </class> <!-- com.testscripts.demoblaze.AddToCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
